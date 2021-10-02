@@ -1,0 +1,19 @@
+{
+  "name": "realtime-chat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.2",
+    "dotenv": "^10.0.0",
+    "lowdb": "^3.0.0",
+    "mongoose": "^6.0.8",
+    "nanoid": "^3.1.28",
+    "socket.io": "^4.2.0"
+  }
+}
